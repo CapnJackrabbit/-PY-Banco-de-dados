@@ -20,7 +20,7 @@ class Cadastra:
         print('Conectado ao banco de dados {}'.format(linha))
         cursor.execute(automovel.insere_dados())
         connection.commit()
-        print (cursor.rowcount, "registro inserido!")
+        print (cursor.rowcount, "registro inserido!\n")
 
         if connection.is_connected():
             cursor.close()

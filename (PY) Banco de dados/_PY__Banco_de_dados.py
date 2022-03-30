@@ -7,11 +7,10 @@ while True:
     print('3 - ACESSAR TODOS OS REGISTROS\n')
     print('4 - EXCLUIR UM REGISTRO\n')
     print('5 - SAIR\n')
-    opc = input('ESCOLHA UMA OPCAO:')
+    opc = input('ESCOLHA UMA OPCAO: ')
 
     if opc == '1':
         Cadastra.Cadastra.cadastra_novo()
-        break
 
     elif opc == '2':
         id = input('INFORME O ID DO VEICULO: ')
